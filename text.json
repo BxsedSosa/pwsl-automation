@@ -1,0 +1,50 @@
+{
+  "home" : {
+    "url" : "https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize?client_id=c9a559d2-7aab-4f13-a6ed-e7e9c52aec87&redirect_uri=https%3A%2F%2Fforms.office.com%2Flanding&state=eyJ2ZXJzaW9uIjoxLCJkYXRhIjp7IklkZW50aXR5UHJvdmlkZXIiOiJBZWN2VDBuQmo0S25iejdfYlE5Y0pyMkhHSWFCYmdKSE9vOW9heWlHeG9CVFBSdzhrVEE4eTdHdVJxLUMxcUEzME9OMUFRZGZuQ1hFTmxjc2kzQmNPVmsiLCIucmVkaXJlY3QiOiJodHRwczovL2Zvcm1zLm9mZmljZS5jb20vUGFnZXMvUmVzcG9uc2VQYWdlLmFzcHg_aWQ9elR1dU9IbVYxRS10MnJRdUZKWFZXcnFsZi1rWUdQcEdtUXdFalB6dVFNeFVPVmt4TnpaWVNWcFBUamxUTUVsUVdWWktOVXhWV1U4eE1TNHUmc2lkPWIwMWQ4OTQ1LTJkY2UtNGRkNS05Y2Y1LTVjOTc4ZTE5YWQ0OSIsIi54c3JmIjoiQVRaMkQ4VmhuT3pabmR2ZE1IUEdFWFc4NVJuZ29sYjRCM2RqY0NfSkRzaWxlMVlsWHJoTGR3Qm9zMV91dXBmNjVwOUNEMEV1Y25uZjBVc2tuSGNFOUpqRGtsWWdzbm10LWtrdU1UMmFIOXpZNENJX255akR1M1laNW9ycEZrY3R6ZyIsIk9wZW5JZENvbm5lY3QuQ29kZS5SZWRpcmVjdFVyaSI6IkFYNzFjMEJ5SnY4QkFfakRMVXRfdGgyTVRsTEFsRzE0dWNrbXZZdHNSYUtrMlFVYjIybS13REl1YmxiQ3M2RWxmcnYwMUg5Q0RxX1BkTWdHYk95RXhIT05FZmdjeFNYckRUTl9zSmZBdmN6Y2xSejFUeWc0b1NkeXB3c3dwM2JtVmcifX0&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=638495670063664767.MmNiYjQ5ZjUtOWJiZS00OWVhLThkY2MtNDU2ZjE5YmZlYzgwMjM2Zjc2ZDQtOWU4Yy00ZTAxLTk2OGYtNjQ0MjIxMWY4YzRm&msafed=0&x-client-SKU=ID_NET8_0&x-client-ver=7.2.0.0"
+  },
+
+  "element" : {
+    "email" : "//*[@id='i0116']",
+    "pass" : "//*[@id='i0118']",
+    "submit-btn" : "//*[@id='idSIButton9']"
+  },
+
+  "credentials" : {
+    "user" : "",
+    "pass" : "",
+    "employee-id" : "",
+    "location" : "",
+    "equipment" : "",
+    "task" : "",
+    "hazard" : "",
+    "tools" : "",
+    "na" : ""
+  },
+  "pwsl" : {
+    "element" : {
+      "home-btn" : "/html/body/div/div/div[1]/div/div/div[3]/div/div/div[2]/div[3]/div[1]/button",
+      "no-btn" : "/html/body/div/div/div[1]/div/div/div[3]/div/div/div[2]/div[2]/div[4]/div[2]/div/div/div[2]/div/label/span[1]/input",
+      "employee-id" : "/html/body/div/div/div[1]/div/div/div[3]/div/div/div[2]/div[2]/div[2]/div[2]/div/span/input",
+      "location" : "/html/body/div/div/div[1]/div/div/div[3]/div/div/div[2]/div[2]/div[3]/div[2]/div/span/input",
+      "equipment" : "/html/body/div/div/div[1]/div/div/div[3]/div/div/div[2]/div[2]/div[5]/div[2]/div/span/input",
+      "task" : "/html/body/div/div/div[1]/div/div/div[3]/div/div/div[2]/div[2]/div[6]/div[2]/div/span/input",
+      "hazard" : {
+        "driving" : "/html/body/div/div/div[1]/div/div/div[3]/div/div/div[2]/div[2]/div[7]/div[2]/div/div/div[4]/div/label/span[1]/input",
+        "ladder" : "/html/body/div/div/div[1]/div/div/div[3]/div/div/div[2]/div[2]/div[7]/div[2]/div/div/div[9]/div/label/span[1]/input",
+        "hand-tool" : "/html/body/div/div/div[1]/div/div/div[3]/div/div/div[2]/div[2]/div[7]/div[2]/div/div/div[13]/div/label/span[1]/input",
+        "slip" : "/html/body/div/div/div[1]/div/div/div[3]/div/div/div[2]/div[2]/div[7]/div[2]/div/div/div[23]/div/label/span[1]/input",
+        "trip" : "/html/body/div/div/div[1]/div/div/div[3]/div/div/div[2]/div[2]/div[7]/div[2]/div/div/div[25]/div/label/span[1]/input"
+        },
+      "describe" : "/html/body/div/div/div[1]/div/div/div[3]/div/div/div[2]/div[2]/div[8]/div[2]/div/span/textarea",
+      "tools" : "/html/body/div/div/div[1]/div/div/div[3]/div/div/div[2]/div[2]/div[9]/div[2]/div/span/textarea",
+      "easier" : "/html/body/div/div/div[1]/div/div/div[3]/div/div/div[2]/div[2]/div[10]/div[2]/div/span/textarea",
+      "unique" : "/html/body/div/div/div[1]/div/div/div[3]/div/div/div[2]/div[2]/div[11]/div[2]/div/span/textarea",
+      "ppe-btn" : "/html/body/div/div/div[1]/div/div/div[3]/div/div/div[2]/div[2]/div[12]/div[2]/div/div/div[1]/div/label/span[1]/input",
+      "safety-btn" : "/html/body/div/div/div[1]/div/div/div[3]/div/div/div[2]/div[2]/div[13]/div[2]/div/div/div[1]/div/label/span[1]/input",
+      "next-btn" : "/html/body/div/div/div[1]/div/div/div[3]/div/div/div[2]/div[3]/div[1]/button[2]",
+      "none-btn" : "/html/body/div/div/div[1]/div/div/div[3]/div/div/div[2]/div[2]/div[2]/div[2]/div/div/div[6]/div/label/span[1]/input",
+      "normal-btn" : "/html/body/div/div/div[1]/div/div/div[3]/div/div/div[2]/div[2]/div[3]/div[2]/div/div/div[3]/div/label/span[1]/input",
+      "submit-btn" : "/html/body/div/div/div[1]/div/div/div[3]/div/div/div[2]/div[4]/div[1]/button[2]"
+    }
+  }
+}
