@@ -16,7 +16,7 @@ def translate_path(file):
     return file_path
 
 
-text_file = translate_path("/Users/dxabad/Workspace/pwsl-automation/text.json")
+text_file = translate_path("./text.json")
 
 
 with open(text_file, "r", encoding="utf-8") as file:
@@ -47,13 +47,12 @@ def click_button(button):
 def automate_home_page():
     """Enters email and pass for home page"""
     get_website(Credentials.url)
+    sleep(7)
     enter_data(Locations.field_email, Credentials.email)
     click_button(Locations.home_page_btn)
-    sleep(3)
-    enter_data(Locations.field_pass, Credentials.password)
-    click_button(Locations.home_page_btn)
+    sleep(7)
     print("Waiting for PWSL Page")
-    sleep(15)
+    sleep(30)
 
 
 def harzard_buttons():
@@ -69,7 +68,6 @@ def automate_pwsl():
     sleep(1)
     enter_data(Locations.field_user_id, Credentials.employee_id)
     enter_data(Locations.field_location, Credentials.location)
-    click_button(Locations.no_btn)
     sleep(1)
     enter_data(Locations.field_equipment, Credentials.equipment)
     enter_data(Locations.field_task, Credentials.task)
