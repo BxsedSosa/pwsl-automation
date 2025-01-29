@@ -1,6 +1,6 @@
 import json
 
-with open("text.json", "r", encoding="utf-8") as file:
+with open("./text.json", "r", encoding="utf-8") as file:
     MSG = json.load(file)
 
 
@@ -25,7 +25,6 @@ class Locations:
     field_pass = MSG["element"]["pass"]
 
     home_btn = MSG["pwsl"]["element"]["home-btn"]
-    no_btn = MSG["pwsl"]["element"]["no-btn"]
     field_user_id = MSG["pwsl"]["element"]["employee-id"]
     field_location = MSG["pwsl"]["element"]["location"]
     field_equipment = MSG["pwsl"]["element"]["equipment"]
